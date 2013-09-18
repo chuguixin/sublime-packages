@@ -1,11 +1,10 @@
 {
 	"cmd": [
 		"java",
-		"-jar", "${packages}/YUI Compressor/bin/yuicompressor-2.4.8.jar",
+		"-jar", "${packages}\\YUI Compressor\\bin\\yuicompressor-2.4.8.jar",
 		"--charset", "utf-8",
 		"--preserve-semi",
-		"-o", "${file_path}/${file_base_name}.min.${file_extension}",
+		"-o", "/Users/YOUR-USER-NAME/Desktop/${file_base_name}.${file_extension}",
 		"$file"
-	],
-	"selector": "source.js, source.css"
+	]
 }
