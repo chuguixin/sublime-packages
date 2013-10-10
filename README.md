@@ -15,3 +15,16 @@
 3. type `git` -> Select `Git`
 
     [It is on Github](https://github.com/kemayo/sublime-text-git)
+
+
+##3. HTML/CSS/JS Prettify ##
+
+1. install [node.js](http://nodejs.org)
+2. `Ctrl+Shift+P`
+3. type `install` then select `Package Control: Install Package`
+4. type `prettify` then select `HTML-CSS-JS Prettify`
+5. click `Perferences` -> `Package Settings` -> `HTML/CSS/JS Prettify` --> `Set node Path`
+6. change `node_path` to the absolute path to node such as `"C:\\Program Files\\nodejs\\node.exe"`
+7. use `Ctrl+Shift+H` or `Ctrl+Shift+P`-> `htmlprettify` or Right click -> `HTML/CSS/JS Prettify` -> `Prettify Code` to prettify your html/css/js.
+
+    [It is on Github](https://github.com/victorporof/Sublime-HTMLPrettify)
