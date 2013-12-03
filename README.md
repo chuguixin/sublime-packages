@@ -1,22 +1,20 @@
-# sublime-packages #
+# sublime packages for F2E #
 
-##1. YUI Compressor ##
+##1.Package Control ##
+Usage:
 
-1. put YUI Compressor dir to your Sublime Text Packages.
-2. open "**YUI Compressor.sublime-build**" && replace the string "YOUR-USER-NAME" with your-user-name.
-3. Open Sublime Text， and go to Tools -> Build System -> choose "**YUI Compressor**".
-4. Restart Sublime Text， Open a CSS or JavaScript file， click Tools > Build， or press F7， or using the shortcut super + b.
-5. The compressed file has been on the desktop.
+* A full-featured package 
 
-##2. Git ##
+Installation:
 
-1. `Control+Shift+p` -> input "**Install Package**"
-2. wait a minute -> Select "**Package Control: Install Package**"
-3. type `git` -> Select `Git`
+1. First of all,you should intall [Package Control](https://sublime.wbond.net/installation)
 
-    [It is on Github](https://github.com/kemayo/sublime-text-git)
+##2. HTML/CSS/JS Prettify ##
+Usage:
 
-##3. HTML/CSS/JS Prettify ##
+* Format HTML, CSS, JavaScript and JSON code
+
+Installation:
 
 1. install [node.js](http://nodejs.org)
 2. `Ctrl+Shift+P` -> type `install` then select `Package Control: Install Package`
@@ -27,8 +25,49 @@
 
     [It is on Github](https://github.com/victorporof/Sublime-HTMLPrettify)
 
-##4. Side Bar ##
+##3. jQuery ##
+Usage:
 
-1. 
+* jQuery 
+
+Installation:
+
+1. `Ctrl+Shift+P` -> type `install` then select `Package Control: Install Package`
+2. type `jQuery` then select `jQuery`
+
+    [It is on Github](https://github.com/SublimeText/jQuery)
+
+##4. YUI Compressor ##
+
+* YUI Compressor 
+
+Installation:
+
+1. put YUI Compressor dir to your Sublime Text Packages.
+2. open "**YUI Compressor.sublime-build**" && replace the string "YOUR-USER-NAME" with your-user-name.
+3. Open Sublime Text， and go to Toolbs -> Build System -> choose "**YUI Compressor**".
+4. Restart Sublime Text， Open a CSS or JavaScript file， click Tools > Build， or press F7， or using the shortcut super + b.
+5. The compressed file has been on the desktop.
+
+##5. Git ##
+
+* Plugin for some git integration into sublime text 
+
+Installation:
+
+1. `Control+Shift+p` -> input "**Install Package**"
+2. wait a minute -> Select "**Package Control: Install Package**"
+3. type `git` -> Select `Git`
+
+    [It is on Github](https://github.com/kemayo/sublime-text-git)
+
+##6. Side Bar ##
+
+* Enhancements to Sublime Text sidebar. Files and folders. 
+
+Installation:
+
+1. `Ctrl+Shift+P` -> type `install` then select `Package Control: Install Package`
+2. type `SideBarEnhancements` then select `SideBarEnhancements`
 
     [It is on Github](https://github.com/titoBouzout/SideBarEnhancements/tree/st3)
