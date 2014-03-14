@@ -86,6 +86,16 @@ Installation:
 
     [It is on Github](https://github.com/SublimeCodeIntel/SublimeCodeIntel)
 
+##9. Sublime​Code​Intel ##
+
+* Sublime plugin for CSScomb—CSS coding style formatter 
+
+Installation:
+
+1. install `Sublime​Code​Intel` by `Package Control`
+
+    [It is on Github](https://github.com/SublimeCodeIntel/SublimeCodeIntel)
+
 
 ## --others-- ##
 
