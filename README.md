@@ -3,7 +3,7 @@
 ##1.Package Control ##
 Usage:
 
-* A full-featured package 
+* A full-featured package manager 
 
 Installation:
 
@@ -12,16 +12,14 @@ Installation:
 ##2. HTML/CSS/JS Prettify ##
 Usage:
 
-* Format HTML, CSS, JavaScript and JSON code
+* HTML, CSS, JavaScript and JSON code formatter for Sublime Text 2 and 3 via node.js
 
 Installation:
 
 1. install [node.js](http://nodejs.org)
-2. `Ctrl+Shift+P` -> type `install` then select `Package Control: Install Package`
-3. type `prettify` then select `HTML-CSS-JS Prettify`
-4. click `Perferences` -> `Package Settings` -> `HTML/CSS/JS Prettify` --> `Set node Path`
-5. change `node_path` to the absolute path to node , such as `"C:\\Program Files\\nodejs\\node.exe"`
-6. use `Ctrl+Shift+H` or `Ctrl+Shift+P`-> `htmlprettify` or Right click -> `HTML/CSS/JS Prettify` -> `Prettify Code` to prettify your html/css/js.
+2. install `HTML/CSS/JS Prettify` by `Package Control`
+3. click `Perferences` -> `Package Settings` -> `HTML/CSS/JS Prettify` -> `Set node Path`
+4. use `Ctrl+Shift+H` or `Ctrl+Shift+P`-> `htmlprettify` or Right click -> `HTML/CSS/JS Prettify` -> `Prettify Code` to prettify your html/css/js.
 
     [It is on Github](https://github.com/victorporof/Sublime-HTMLPrettify)
 
@@ -32,12 +30,64 @@ Usage:
 
 Installation:
 
-1. `Ctrl+Shift+P` -> type `install` then select `Package Control: Install Package`
-2. type `jQuery` then select `jQuery`
+1. install `jQuery` by Package Control
 
     [It is on Github](https://github.com/SublimeText/jQuery)
 
-##4. YUI Compressor ##
+##4. Sublime​Code​Intel ##
+Usage:
+
+* Full-featured code intelligence and smart autocomplete engine 
+
+Installation:
+
+1. install `Sublime​Code​Intel` by `Package Control`
+
+    [It is on Github](https://github.com/SublimeCodeIntel/SublimeCodeIntel)
+
+
+##5. Git ##
+
+* Plugin for some git integration into sublime text 
+
+Installation:
+
+1. install `Git` by `Package Control`
+
+    [It is on Github](https://github.com/kemayo/sublime-text-git)
+
+##6. Side​Bar​Enhancements ##
+
+* Enhancements to Sublime Text sidebar. Files and folders. 
+
+Installation:
+
+1. install `Side​Bar​Enhancements` by `Package Control`
+
+    [It is on Github](https://github.com/titoBouzout/SideBarEnhancements/tree/st3)
+
+##7. BracketHighlighter ##
+
+* Enhancements to Sublime Text sidebar. Files and folders. 
+
+Installation:
+
+1. install `BracketHighlighter` by `Package Control`
+
+    [It is on Github](https://github.com/facelessuser/BracketHighlighter)
+
+##8. Sublime​Code​Intel ##
+
+* Full-featured code intelligence and smart autocomplete engine 
+
+Installation:
+
+1. install `Sublime​Code​Intel` by `Package Control`
+
+    [It is on Github](https://github.com/SublimeCodeIntel/SublimeCodeIntel)
+
+
+## --others-- ##
 
 * YUI Compressor 
 
@@ -48,26 +98,3 @@ Installation:
 3. Open Sublime Text， and go to Toolbs -> Build System -> choose "**YUI Compressor**".
 4. Restart Sublime Text， Open a CSS or JavaScript file， click Tools > Build， or press F7， or using the shortcut super + b.
 5. The compressed file has been on the desktop.
-
-##5. Git ##
-
-* Plugin for some git integration into sublime text 
-
-Installation:
-
-1. `Control+Shift+p` -> input "**Install Package**"
-2. wait a minute -> Select "**Package Control: Install Package**"
-3. type `git` -> Select `Git`
-
-    [It is on Github](https://github.com/kemayo/sublime-text-git)
-
-##6. Side Bar ##
-
-* Enhancements to Sublime Text sidebar. Files and folders. 
-
-Installation:
-
-1. `Ctrl+Shift+P` -> type `install` then select `Package Control: Install Package`
-2. type `SideBarEnhancements` then select `SideBarEnhancements`
-
-    [It is on Github](https://github.com/titoBouzout/SideBarEnhancements/tree/st3)
